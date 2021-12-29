@@ -1,0 +1,21 @@
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 100px;
+  box-shadow:  0 5px 5px rgba(0, 0, 0, 0.247);
+}
+.navBar a img{
+  width: 220px;
+}
+.navBarLinks{
+  padding-right: 50px;
+}
+.navBarLinks a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
