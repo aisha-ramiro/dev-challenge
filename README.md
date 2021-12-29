@@ -6,3 +6,6 @@ Desafios do site DevChallenge
 
 # Get Coffee
 --> Landing Page de uma cafeteria online
+
+<img src="https://github.com/aisha-ramiro/dev-challenge/blob/main/getCoffee/assets/get-coffee-page%20.png" alt="Get Coffee Design" width="960">
+
