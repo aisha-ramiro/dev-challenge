@@ -9,3 +9,7 @@ Desafios do site DevChallenge
 
 <img src="https://github.com/aisha-ramiro/dev-challenge/blob/main/getCoffee/assets/get-coffee-page%20.png" alt="Get Coffee Design" width="960">
 
+
+#SelfCare
+
+--> Página para exibição de produtos de loja online de produtos de beleza
