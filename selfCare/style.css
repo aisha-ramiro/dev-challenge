@@ -1,0 +1,43 @@
+*{
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration:none;
+}
+
+body{
+  width: 100%;
+}
+
+/*Navbar*/
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar .navbarLinks a img{
+  padding-right: 50px;
+  width: 30%;
+}
+
+/*Banner*/
+
+.banner img{
+  width: 100%;
+}
+
+/*Produtos*/
+
+.productBar{
+  display: flex;
+  margin: auto;
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: solid 0.5px rgba(128, 128, 128, 0.329);
+  font-weight: bold;
+  justify-content: space-between;
+  max-width: 90%;
+ 
+}
