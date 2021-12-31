@@ -26,6 +26,7 @@ body{
 
 .banner img{
   width: 100%;
+  height: auto;
 }
 
 /*Produtos*/
@@ -38,6 +39,48 @@ body{
   border-bottom: solid 0.5px rgba(128, 128, 128, 0.329);
   font-weight: bold;
   justify-content: space-between;
-  max-width: 90%;
+  max-width: 80%;
  
 }
+
+.productContainer{
+  padding: 50px;
+  margin: auto;
+  max-width: 80%;
+  max-height: 100%;
+}
+
+.productList{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;  
+}
+
+.product p{
+  font-size: 13px;
+  text-align: justify;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.product p b{
+  color: #5CA720;
+  font-size: 15px;
+}
+
+.product img{
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.product img:hover{
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+
