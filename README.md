@@ -23,3 +23,5 @@ Desafios do site DevChallenge
 # SelfCare
 
 --> Página para exibição de produtos de loja online de produtos de beleza
+
+<img src="https://github.com/aisha-ramiro/dev-challenge/blob/main/selfCare/assets/selfcare-page.png" alt="SelfCare Design" width="960"> 
