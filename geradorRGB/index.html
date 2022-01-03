@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gerador de RGB</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Gerador RGB</h1>
-    <div class="container">
-      <div class="linha">
-        <label for="red">(R) Vermelho</label>
-        <input type="range" max="255" min="0" id="red" class="range" />
-        <input type="text" id="inputRed" class="inputTexto" disabled />
-      </div>
-      <div class="linha">
-        <label for="green">(G) Verde</label>
-        <input type="range" max="255" min="0" id="green" class="range" />
-        <input type="text" id="inputGreen" class="inputTexto" disabled />
-      </div>
-      <div class="linha">
-        <label for="blue">(B) Azul</label>
-        <input type="range" max="255" min="0" id="blue" class="range" />
-        <input type="text" id="inputBlue" class="inputTexto" disabled />
-      </div>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Gerador RGB</title>
+</head>
+<body>
 
-      <div class="resultado"></div>
+	<h1 class="title">Gerador RGB</h1>
+
+	<main>
+    <div class='dateContainer'>
+      <p id='date'></p>
     </div>
-    <script src="./script.js"></script>
-  </body>
+		<section class='rgbContainer'>
+			<input class='red' type="range" name="red" id="redInput" min="0" max="255" step="1">
+			<input class='green' type="range" name="green" id="greenInput" min="0" max="255" step="1">
+			<input class='blue 'type="range" name="blue" id="blueInput" min="0" max="255" step="1">
+			<div id="circle"></div>
+			<p id="colorResult"></p>
+		</section>
+	</main>
+
+  
+
+	<script type="text/javascript" src="./script.js"></script>
+</body>
 </html>

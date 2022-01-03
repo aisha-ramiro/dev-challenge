@@ -1,64 +1,20 @@
-window.addEventListener("load", start);
+setInterval( function () {
 
-var rengeRed = null;
-var rengeGreen = null;
-var rengeBlue = null;
+	let redValue = document.querySelector('#redInput').value;
+	let greenValue = document.querySelector('#greenInput').value;
+	let blueValue = document.querySelector('#blueInput').value;
 
-var inputRed = null;
-var inputGreen = null;
-var inputBlue = null;
-var divResultado = null;
+	document.querySelector("#circle").style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+	document.querySelector("#colorResult").innerHTML = `rgb(${redValue}, ${greenValue}, ${blueValue})`; //muda o texto de acordo com o valor dos inputs
+}, 60)
 
-var red = 0;
-var blue = 0;
-var green = 0;
-function start() {
-  inicalizaComponentes();
-  RetValueRengeRed();
-  RetValueRengeGreen();
-  RetValueRengeBlue();
-  mudarCor(red, green, blue);
-}
-
-function inicalizaComponentes() {
-  rengeRed = document.querySelector("#red");
-  rengeGreen = document.querySelector("#green");
-  rengeBlue = document.querySelector("#blue");
-  inputRed = document.querySelector("#inputRed");
-  inputGreen = document.querySelector("#inputGreen");
-  inputBlue = document.querySelector("#inputBlue");
-  divResultado = document.querySelector(".resultado");
-
-  rengeRed.value = 0;
-  rengeGreen.value = 0;
-  rengeBlue.value = 0;
-  inputRed.value = 0;
-  inputGreen.value = 0;
-  inputBlue.value = 0;
-}
-function RetValueRengeRed() {
-  rengeRed.addEventListener("input", () => {
-    inputRed.value = rengeRed.value;
-    red = inputRed.value;
-    mudarCor(red, green, blue);
-  });
-}
-function RetValueRengeGreen() {
-  rengeGreen.addEventListener("input", () => {
-    inputGreen.value = rengeGreen.value;
-    green = inputGreen.value;
-    mudarCor(red, green, blue);
-  });
-}
-function RetValueRengeBlue() {
-  rengeBlue.addEventListener("input", () => {
-    inputBlue.value = rengeBlue.value;
-    blue = inputBlue.value;
-    mudarCor(red, green, blue);
-  });
-}
-
-function mudarCor(r, g, b) {
-  divResultado.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+window.onload = function () {
+	
+  const date = new Date ();
+  const newDate = date.toLocaleDateString('pt-BR', {timeZone: 'UTC'})
+  var hora = date.getHours();
+  var minuto = date.getMinutes();
+  
+  document.getElementById('date').innerHTML = newDate+' ' + hora +':' + minuto
 
 }
