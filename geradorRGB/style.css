@@ -27,7 +27,23 @@ body{
   margin: auto;
   text-align: center;
   padding: 30px 10px;
+}
 
+.rgbButtons div{
+  display:inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.red{
+  background-color:#FF817E
+  ; 
+}
+.green{
+  background-color: #3FB73D
+}
+.blue{ 
+  background-color: #515AAB;
 }
 
 .dateContainer{
@@ -49,4 +65,9 @@ main #circle {
 
 .dateContainer p {
   color: white;
+}
+
+p#colorResult{
+  color: white;
+  font-weight: bold;
 }
