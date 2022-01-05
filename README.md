@@ -37,3 +37,5 @@ Desafios do site DevChallenge
 
 --> Gerador de cores RGB, com data e hora atual
 
+<img src="https://github.com/aisha-ramiro/dev-challenge/blob/main/geradorRGB/assets/gerador-rgb.png" alt="Gerador RGB" width="550">
+<img src="https://github.com/aisha-ramiro/dev-challenge/blob/main/geradorRGB/assets/gerador-rbg-gif.gif" width="400" height="350">
